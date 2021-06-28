@@ -1,3 +1,33 @@
 *{
     box-sizing: border-box;
 }
+body{
+   background-image: url(./images/bg-intro-mobile.png);
+   background-color:hsl(0, 100%, 74%)  ;
+   font-size: 16px;
+   color: white;
+   text-align: center;
+}
+
+html,body{
+    height:100vh;
+}
+
+dd{
+    margin: 0;
+
+}
+div{
+    background-color:hsl(248, 32%, 49%)
+}
+.btn{
+    background-color:hsl(154, 59%, 51%);
+    
+}
+.finePrint{
+    color:hsl(246, 25%, 77%);
+}
+
+form{
+    background-color:white;
+}
