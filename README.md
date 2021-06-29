@@ -94,5 +94,4 @@ This challenge is completely free. Please share it with anyone who will find it 
 
 **Have fun building!** 🚀
 
-
-https://practical-austin-8f8afd.netlify.app
+https://determined-keller-7fd769.netlify.app/
