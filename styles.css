@@ -82,6 +82,11 @@ p > span{
     color:hsl(0, 100%, 74%) ;
 }
 
+ul,li{
+    list-style-type: none;
+  padding-top: 4px;
+}
+
 @media (min-width: 1200px)  {
     main{
         display:grid;
