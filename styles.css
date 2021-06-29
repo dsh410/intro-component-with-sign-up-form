@@ -27,7 +27,7 @@ margin-top:25%;
 p{
    
     line-height:1.5;
-    width: 80%;
+    width: 85%;
     margin:0;
    margin:0 auto;
    margin-top: 15px;
@@ -38,19 +38,41 @@ div{
     width:85%;
     margin:0 auto;
     margin-bottom: 20px;
-    padding:2%;
+    padding:5px 0;
     border-radius: 10px;
   box-shadow:5px  5px 5px rgba(49, 49, 49, 0.582);
+  line-height:1.5;
 }
 
 .btn{
     background-color:hsl(154, 59%, 51%);
+    color:white;
+    width:90%;
+    text-transform: uppercase;
+   
     
 }
 .finePrint{
     color:hsl(246, 25%, 77%);
+    font-size: 10px;
+    line-height: 2;
+   margin-top:0px;
+    padding-bottom: 20px;
 }
 
 form{
     background-color:white;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 13px;
+    box-shadow:5px  5px 5px rgba(49, 49, 49, 0.281);
+}
+input{
+    margin: 10px;
+    padding:15px;
+    border: 2px solid rgba(87, 87, 87, 0.116);
+    color:rgb(109, 109, 109);
+}
+p > span{
+    color:hsl(0, 100%, 74%) ;
 }
