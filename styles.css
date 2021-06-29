@@ -40,10 +40,11 @@ div{
     width:85%;
     margin:0 auto;
     margin-bottom: 25px;
-    padding:5px 0;
+    padding:10px 0;
     border-radius: 10px;
   box-shadow:5px  5px 5px rgba(49, 49, 49, 0.582);
   line-height:1.5;
+
 }
 
 .btn{
@@ -85,6 +86,11 @@ p > span{
 ul,li{
     list-style-type: none;
   padding-top: 4px;
+}
+li{
+    font-size:16px;
+    width:60%;
+   margin:0 auto;
 }
 
 @media (min-width: 1200px)  {
