@@ -72,6 +72,7 @@ input{
     padding:15px;
     border: 2px solid rgba(87, 87, 87, 0.116);
     color:rgb(109, 109, 109);
+    width:85%;
 }
 p > span{
     color:hsl(0, 100%, 74%) ;
