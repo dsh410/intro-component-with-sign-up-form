@@ -47,8 +47,8 @@ div{
 }
 
 .btn{
-    /* background-color:hsl(154, 59%, 51%); */
-    background-color:blue;
+    background-color:hsl(154, 59%, 51%);
+   
     color:white;
     width:90%;
     height: 100%;
