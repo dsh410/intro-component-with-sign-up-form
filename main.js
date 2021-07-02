@@ -1,20 +1,24 @@
-let inputs = document.querySelectorAll('input');
-let btns = document.querySelector('.button');
-let form = document.querySelector('form');
+const nameInput = document.querySelectorAll('input');
 
-function onSubmit(e) {
-    for (let input of inputs) {
-        e.preventDefault();
-        if (input.innerText === '') {
-           
-            input.placeholder = `${input.placeholder} Cannot Be Empty`
-          
-        }
-      
-    }
+
+for (let input of nameInput) {
+  input.addEventListener('input', () => {
+    input.setCustomValidity('');
+    input.checkValidity();
+  });
 }
 
-   form.addEventListener('submit', onSubmit,{  once: true })
 
 
-    
+
+
+for (let input of nameInput) {
+  input.addEventListener('invalid', () => {
+    if(input.value === '') {
+      input.setCustomValidity(`Enter your ${input.placeholder}!`);
+    } else {
+      input.setCustomValidity('Usernames can only contain upper and lowercase letters. Try again!');
+    }
+  });
+
+}

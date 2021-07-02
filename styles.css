@@ -77,6 +77,9 @@ input{
     width:85%;
 }
 
+
+ 
+
 p > span{
     color:hsl(0, 100%, 74%);
 }
@@ -94,6 +97,17 @@ li{
     width:60%;
    margin:0 auto;
 }
+
+.error-list {
+    
+    display:none;
+}
+
+
+
+
+
+
 
 @media (min-width: 1200px)  {
     main{
