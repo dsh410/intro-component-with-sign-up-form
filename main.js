@@ -17,7 +17,7 @@ for (let input of nameInput) {
 
 function submitForm(input) {
   const request = new XMLHttpRequest();
-  request.open("POST", "submitform.php");
+  request.open("POST", 'https://determined-keller-7fd769.netlify.app/');
   request.send(new FormData(form));
 }
 
