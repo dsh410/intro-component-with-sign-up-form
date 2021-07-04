@@ -12,7 +12,7 @@ for (let input of nameInput) {
     input.setCustomValidity('');
     input.checkValidity();
     submitForm(input);
-    consol.log(formData)
+    console.log(formData)
   });
 }
 
