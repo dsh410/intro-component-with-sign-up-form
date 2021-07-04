@@ -1,7 +1,7 @@
 const nameInput = document.querySelectorAll('input');
 const form = document.querySelector('form');
 
- let formData = new FormData(form)
+ 
 
 const request = new XMLHttpRequest();
 
@@ -18,7 +18,7 @@ for (let input of nameInput) {
 function submitForm(input) {
   const request = new XMLHttpRequest();
   request.open("POST", 'https://determined-keller-7fd769.netlify.app/');
-  request.send( FormData(form));
+  request.send(new FormData(form));
 }
 
 
