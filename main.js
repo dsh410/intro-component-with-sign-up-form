@@ -11,15 +11,14 @@ for (let input of nameInput) {
   input.addEventListener('input', () => {
     input.setCustomValidity('');
     input.checkValidity();
-    submitForm(input);
-    console.log(formData.getAll)
+    
   });
 }
 
-function submitForm(input) {
+function submitForm() {
   const request = new XMLHttpRequest();
   request.open("POST", 'https://determined-keller-7fd769.netlify.app/');
-  
+  request.send(formData);
 }
 
 
@@ -37,7 +36,7 @@ for (let input of nameInput) {
 
 }
 
-
+submitForm();
 
 
 
