@@ -1,11 +1,13 @@
+import axios from "./axios/dist/axios";
+
+
 const nameInput = document.querySelectorAll('input');
-const form = document.querySelector('form');
-
- let formData = new FormData(form)
-
-const request = new XMLHttpRequest();
+let form = document.querySelector('form');
 
 
+
+const response = axios.get("./index.html")
+const user = response.data;
 
 for (let input of nameInput) {
   input.addEventListener('input', () => {
@@ -14,13 +16,6 @@ for (let input of nameInput) {
     
   });
 }
-
-function submitForm() {
-  const request = new XMLHttpRequest();
-  request.open("POST", 'https://determined-keller-7fd769.netlify.app/');
-  request.send(formData);
-}
-
 
 
 
@@ -35,8 +30,11 @@ for (let input of nameInput) {
   });
 
 }
+form.addEventListener('submit', () => {
+  consloe.log(user )
+})
 
-submitForm();
+
 
 
 
